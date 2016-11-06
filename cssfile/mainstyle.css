@@ -83,7 +83,7 @@ article{
 /*experience-lifeproject*/
 
 section.container{
-  margin-top: 100px;
+  margin-top: 20px;
   margin-bottom: 150px;
   margin-right: 40px;
   margin-left:40px;
@@ -125,6 +125,21 @@ div.desc {
     clear: both;
 }
 
+div.projectintro{
+  font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin:0 auto;
+  width:60%;
+  max-width: 750px;
+  font-size:25px;
+
+}
+
+div.projecttitle{
+  font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight:800;
+
+}
 
 
 
@@ -152,7 +167,7 @@ h2{font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   width:45%;
   text-align: center;
   margin: 0.5em;
-  padding: 100px 60px 50px 60px;
+  padding: 60px 60px 50px 60px;
 
 }
 
