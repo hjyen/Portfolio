@@ -11,7 +11,7 @@ header.banner {
 }
 
 nav{
-  background-color: #696969;
+  background-color: #D3D3D3;
 
 }
 
@@ -29,7 +29,7 @@ ul.topnav li {
 
 ul.topnav li a {
     display: block;
-    color: #FFFFFF;
+    color: #696969;
     font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-align: center;
     padding: 14px 16px;
@@ -38,7 +38,7 @@ ul.topnav li a {
     font-style: bold;
 }
 
-ul.topnav li a:hover:not(.active) {color: #111; font-style: bold;}
+ul.topnav li a:hover:not(.active) {color: #FFFFFF; font-style: bold;}
 
 ul.topnav li a.active {color: #4CAF50;font-style: bold;}
 
@@ -75,10 +75,27 @@ article{
   margin:0 auto;
 }
 
+
 .homeh2{
-  padding:0px;
+text-align: center;
+font-size: 40px;
+padding-top: 0px;
+margin-top: 20px;
+margin-bottom: 100px;
+
 }
 
+div.post h3{
+font-size: 30px;
+}
+
+.content{
+  font-size: 20px;
+}
+
+.post{
+  padding-bottom: 100px;
+}
 
 /*experience-lifeproject*/
 
@@ -137,7 +154,9 @@ div.projectintro{
 div.projecttitle{
   font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
-  font-weight:800;
+  font-weight:600;
+  padding-top: 20px;
+  font-size: 1em;
 
 }
 
@@ -146,7 +165,8 @@ div.projecttitle{
 /*about*/
 h2{font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
+  font-size: 3em;
 
 }
 
@@ -173,6 +193,7 @@ h2{font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 div.aboutme p{
   text-align: left;
+  font-size: 1.2em;
 
 }
 
@@ -202,15 +223,24 @@ form.form-horizontal{
   margin-top: 0px;
 }
 
+form.form-horizontal{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
 
+.contacth2{
+  text-align: center;
+  font-size: 25px;
+
+}
 
 
 footer.banner { 
     font-size: 20px;
-    color :#FFFFFF;
+    color :#696969;
   	text-align: center;
   	font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  	background-color: #696969;
+  	background-color: #D3D3D3;
   	padding: 25px 0 30px;
     margin-top: 100px;
 }
@@ -229,7 +259,40 @@ footer.banner {
     }
 }
 
+@media only screen and (max-width: 768px){
+    #about_img{
+        display:block;
+        width: 100%
+    }
+}
 
+@media only screen and (max-width: 768px){
+    #about_intro{
+        display:block;
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 50px;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px){
+    article {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    article{
+        width:90%;
+    }
+}
 
 
 
