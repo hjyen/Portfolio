@@ -75,6 +75,9 @@ article{
   margin:0 auto;
 }
 
+img.img-responsive{
+  width:100%;
+}
 
 .homeh2{
 text-align: center;
@@ -99,7 +102,7 @@ font-size: 30px;
 
 /*experience-lifeproject*/
 
-section.container{
+div.container{
   margin-top: 20px;
   margin-bottom: 150px;
   margin-right: 40px;
@@ -195,6 +198,11 @@ div.aboutme p{
   text-align: left;
   font-size: 1.2em;
 
+}
+
+img.aboutpic{
+  width:360px; 
+  height:480px;
 }
 
 
